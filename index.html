@@ -48,6 +48,13 @@
         <label for="whatsapp">WhatsApp</label>
         <input type="what" id="whatsapp" class="input-padrao" required placeholder ="(XX) XXXXX-XXXX">
      <fieldset>
+         <fieldset>
+        <legend>Precisa de atendimento?</legend>
+        <label for="radio-urgente">
+        <input type="radio" name="contato" value="urgente" id="radio-urgente"> Urgente </label>
+    
+        <label for="radio-rápido">
+        <input type="radio" name="contato" value="rápido" id="radio-rápido"> O mais rápido possível </label>
         <legend>Precisa de atendimento?</legend>
         <label for="radio-urgente">
         <input type="radio" name="contato" value="urgente" id="radio-urgente"> Urgente </label>
@@ -58,6 +65,14 @@
         <label for="radio-advogada">
         <input type="radio" name="contato" value="advogada" id="radio-advogada"> Preciso falar com a advogada </label checked>
      </fieldset>
+    <fieldset>
+        <legend>No momento está sobre custódia?</legend>
+        <label for="radio-sim">
+        <input type="radio" name="contato" value="sim" id="radio-sim"> Sim </label>
+    
+        <label for="radio-não">
+        <input type="radio" name="contato" value="não" id="radio-não"> Não </label>
+    </fieldset>
         <fieldset>
         <legend>A infração está relacionada ao direito?</legend>
     <select>
